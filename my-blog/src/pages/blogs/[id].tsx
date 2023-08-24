@@ -28,7 +28,7 @@ export async function getStaticProps({ params }) {
 const BlogDetail = ({ post }) => {
   const router = useRouter();
   const { id } = router.query; // URLからidを取得
-  const post = blogPosts.find(p => p.id === id);
+  // const post = blogPosts.find(p => p.id === id);
 
   if (!post) return <div>ブログが見つかりません</div>;
 

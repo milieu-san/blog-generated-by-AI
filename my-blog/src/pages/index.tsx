@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import { blogPosts } from '../lib/data';
+import Link from 'next/link';
 
 const Home = () => {
   return (
